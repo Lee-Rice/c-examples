@@ -12,7 +12,8 @@ int main()
     printf("The total distance is %.2f kilometers. \n", total_distance);
 }
 
-float sum_distances(float dist_1, float dist_2)
+float sum_distances(float dist_0, float dist_2)
+
 {
-    return dist_1 + dist_2;
+    return dist_0 + dist_2;
 }
